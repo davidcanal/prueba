@@ -10,7 +10,6 @@ glimpse(datos)
 #push: sincronizo con la nube
 
 plot (happiness ~work.hours, data=datos)
+
 ggplot(datos)+
-  geom_point(aes(work.hours, happiness))
-
-
+  geom_point(aes(work.hours, happiness))+theme_classic()
