@@ -13,3 +13,5 @@ plot (happiness ~work.hours, data=datos)
 
 ggplot(datos)+
   geom_point(aes(work.hours, happiness))+theme_classic()
+
+plot()
