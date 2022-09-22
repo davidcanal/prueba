@@ -7,4 +7,4 @@ str(ficed)
 minificed<-subset(ficed, select=c("NP", "TP", "NPUPAS", "PUPASCUAL","EDREALH","EDREALM", "Year"))
 str(minificed)
 
-                                
+pairs(minificed)
