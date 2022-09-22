@@ -15,3 +15,7 @@ ggplot(datos)+
   geom_point(aes(work.hours, happiness))+theme_classic()
 
 plot()
+
+
+datos <- read.table(file = "minificed_curso.txt",header = TRUE)
+head(datos)
