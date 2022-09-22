@@ -19,3 +19,5 @@ plot()
 
 datos <- read.table(file = "minificed_curso.txt",header = TRUE)
 head(datos)
+
+#esto es el makefile
