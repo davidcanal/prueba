@@ -24,14 +24,17 @@ plot(minificed)
 m1 <- lm(TP ~ EDREALH, data = minificed)
 summary(m1)
 plot(m1)
+check_model(m1)
 
 m2 <- lm(TP ~ EDREALM, data = minificed)
 summary(m2)
 plot(m2)
+check_model(m2)
 
 m3 <- lm(TP ~ Year, data = minificed)
 summary(m3)
 plot(m3)
+check_model(m3)
 
 #Comparamos los modelos anteriores
 
