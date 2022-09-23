@@ -33,7 +33,7 @@ names(minificed)[names(minificed) == "NP"] <- "Num_pollos"
   mod_gaus <- lmer(Num_pollos ~Num_ecto+
                       (1|Year)+ (1|anillaH),
                       data = minificed)
-  diagnostics.plot(mod_gaus) 
+  check_model(mod_gaus) 
   
   
   #2. Poisson
