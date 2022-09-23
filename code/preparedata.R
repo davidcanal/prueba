@@ -13,6 +13,8 @@ str(ficed)
 
 minificed<-subset(ficed, select=c("NP", "TP", "NPUPAS", "PUPASCUAL","EDREALH","EDREALM", "Year"))
 str(minificed)
+hist(minificed$NP)
+hist(minificed$TP)
 
 #Hacemos un primera visualización general de correlaciones
 
