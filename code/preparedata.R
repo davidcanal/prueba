@@ -19,7 +19,7 @@ str(minificed)
 
 pairs(minificed)
 hist(minificed$NP)
-
+gg
 #Probamos algunos modelos con sentido biológico
 
 m1 <- lm(TP ~ EDREALH, data = minificed)
